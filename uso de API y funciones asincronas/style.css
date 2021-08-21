@@ -1,0 +1,31 @@
+body{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.tdDia{
+    width: 200px;
+}
+
+.tdDesc{
+    text-align: right;
+}
+
+.tdTemp{
+    text-align: right;
+}
+
+table{
+border-collapse: separate;
+border-spacing: 20px 1px;
+margin: 0 auto;
+text-align: left;
+
+}
+
+img{
+    width: 50px;
+}
+
+.tdCiudad{
+    font-size: 20px;
+}

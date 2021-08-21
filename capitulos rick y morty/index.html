@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and morty</title>
+  <link rel="stylesheet" href="./static/css/styles.css">
+</head>
+
+<body>
+  <div class="placeholder-container">
+    <h1 id="character-name-placeholder" class="character-name-placeholder"></h1>
+  </div>
+  <div class="grid">
+    <img class="logo" src="./static/images/logo@2x.png" width="280" alt="">
+
+    <div class="social">
+      <form id="formularioEpisodio" novalidate>
+        <label for="episodio">Episodio:</label>
+        <input type="number" name="episodio" id="episodio" min="1" max="41" required>
+        <input type="submit" value="Enviar">
+      </form>
+      <div id="info"></div>
+    </div>
+
+    <div id="character-name-container" class="character-name-container"></div>
+
+    <div id="character-image-container" class="character-image-container"></div>
+
+    <div id="character-description-container" class="character-description-container"></div>
+
+    <div></div>
+
+    <div class="learn-more">
+      <span>next character</span>
+    </div>
+
+    <div class="arrow" id="load-next"></div>
+
+  </div>
+
+  <script src="static/js/index.js"></script>
+
+</body>
+
+</html>

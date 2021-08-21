@@ -1,0 +1,49 @@
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+td {
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+}
+
+#titulo, #tiempo, #mensajes {
+  text-align: center;
+}
+
+.topo {
+  background-image: url("imagenes/topo.png");
+  background-repeat: no-repeat;
+}
+
+.roca {
+  background-image: url("imagenes/roca.png");
+  background-repeat: no-repeat;
+}
+
+.salida {
+  background-image: url("imagenes/salida.jpg");
+  background-repeat: no-repeat;
+}
+
+.oculto{
+  display: none;
+}
+
+.error{
+  border: 1px solid red;
+}
+
+#formulario{
+  text-align: center;
+}
+
+#ranking{
+  text-align: center;
+}

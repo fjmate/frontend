@@ -1,0 +1,58 @@
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  td {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+  }
+  
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.mole {
+    background-image: url('mole.jpg');
+    background-size: cover;
+}
+
+.row {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.square {
+    border: 1px solid black;
+    max-width: 50px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    height: auto;
+}
+
+.square:before {
+    padding-top: 100%;
+    content: '';
+    float: left;
+}
